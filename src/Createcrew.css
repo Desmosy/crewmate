@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.create-crewmate-form {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .create-crewmate-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .create-crewmate-form input,
+  .create-crewmate-form select {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .create-crewmate-form input::placeholder {
+    color: #a0a0a0;
+  }
+  
+  .create-crewmate-form select option {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+  }
+  
+  .create-crewmate-form button {
+    background-color: #ff4654;
+    color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .create-crewmate-form button:hover {
+    background-color: #e03040;
+  }
+  
+  .attribute-description {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.9rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 50%; 
+    margin-top: 10px; 
+  }

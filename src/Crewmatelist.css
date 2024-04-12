@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.crewmate-list {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.crewmate-list h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff4654;
+  text-shadow: 0 0 10px #ff4654;
+}
+
+.crewmate-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.crewmate-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #2a2a2a;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.crewmate-list li:hover {
+  background-color: #333333;
+}
+
+.crewmate-list a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.crewmate-list a:hover {
+  color: #ff4654;
+}
+
+.crewmate-list button {
+  background-color: #ff4654;
+  color: #f0f0f0;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.crewmate-list button:hover {
+  background-color: #e03040;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/2010328424759555731/7167A3ECE235D7D7E9CDD5E866E9C556F20C22BD/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Orbitron', sans-serif;    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+
+  .content {
+    text-align: center;
+    background-color: rgba(0, 153, 255, 0.65); 
+    padding: 20px;
+    border-radius: 10px; 
+  }
+  
+  .content h1 {
+    font-size: 3rem;
+    margin: 0; 
+  }
+  
+  .content p {
+    font-size: 1.5rem;
+    margin: 0; 
+  }
+  
